@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin: 5px 0;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        .contact-form button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>HealthCare Center</h1>
+        <p>Your Health, Our Priority</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#doctors">Doctors</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to HealthCare Center, where we provide the best medical care and treatment to our patients. We
+            are committed to providing high-quality healthcare services in a caring and compassionate manner. Our team
+            of doctors and staff are dedicated to your well-being.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>General Checkup</li>
+            <li>Emergency Services</li>
+            <li>Cardiology</li>
+            <li>Orthopedics</li>
+            <li>Pediatrics</li>
+            <li>Diagnostics</li>
+            <li>Pharmacy</li>
+        </ul>
+    </section>
+
+    <section id="doctors">
+        <h2>Meet Our Doctors</h2>
+        <div>
+            <h3>Dr. John Smith</h3>
+            <p>Specialization: Cardiologist</p>
+            <p>Experience: 10 years</p>
+        </div>
+
+        <div>
+            <h3>Dr. Emily Johnson</h3>
+            <p>Specialization: Pediatrician</p>
+            <p>Experience: 8 years</p>
+        </div>
+
+        <div>
+            <h3>Dr. David Lee</h3>
+            <p>Specialization: Orthopedic Surgeon</p>
+            <p>Experience: 12 years</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need to schedule an appointment, feel free to reach out to us.</p>
+
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 HealthCare Center. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

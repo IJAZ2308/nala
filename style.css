@@ -1,0 +1,17 @@
+body{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  background-color: blue;
+  color: palevioletred;
+}
+h2{
+    background-color: aquamarine;
+    color: rebeccapurple;
+}
+h5{
+    background-color: bisque;
+    color: black;
+}
